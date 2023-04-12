@@ -6,8 +6,59 @@
     margin: 0 13px;
 }
 
-.nav-item:active
-{  
+.nav-item:hover {
     background-color: #5eaeb1;
-    
+    border-radius: 7px;
+    color: white;
+}
+
+.nav-item:hover a {
+    color: white;
+}
+
+.Promary-Container {
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+}
+
+.Promary-Container-Section02 {
+    height: inherit;
+}
+
+.Promary-Container-Section01 {
+    height: inherit;
+}
+
+.Promary-Container-Section01-Div01 {
+    height: 23rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.floating {
+    animation-name: floating;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-top: -30px;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 15px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+.typewrite{
+    margin: 15px;
 }
