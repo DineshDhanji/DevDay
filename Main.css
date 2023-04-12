@@ -43,7 +43,7 @@
     animation-duration: 1.2s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    margin-top: -30px;
+    margin-top: -50px;
 }
 
 @keyframes floating {
